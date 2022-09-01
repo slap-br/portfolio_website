@@ -1,0 +1,51 @@
+$background-color: #13505b;
+$background-color-lighter: lighten($background-color, 20%);
+$background-color-darker: darken($background-color, 10%);
+$secondary-bg-color: #668F80;
+$primary-color: #D7D9CE;
+$secondary-color: #119DA4;
+
+
+%box-share {
+  /* Box Style */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.box__wrapper {
+  /* Box Grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.box-primary {
+  @extend %box-share;
+  background-color: $background-color;
+  color: $primary-color;
+}
+
+.box-primary-lighter {
+  @extend %box-share;
+  background-color: $background-color-lighter;
+  color: $primary-color;
+}
+
+.box-primary-darker {
+  @extend %box-share;
+  background-color: $background-color-darker;
+  color: $secondary-color;
+}
+
+.box-secondary {
+  @extend %box-share;
+  background-color: $secondary-bg-color;
+  color: $primary-color;
+}
