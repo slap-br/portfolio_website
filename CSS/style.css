@@ -1,4 +1,9 @@
+@import "x.css";
+@import "y.css";
+
+
 :root {
+
   --color1: #0C7489;
   --color2: #13505B;
   --color3: #D7D9CE;
@@ -14,7 +19,7 @@
 
 }
 
-
+/* testing CSS Linter */
 * {
   box-sizing: border-box;
 }
@@ -49,8 +54,7 @@ h3 {
 
 /* Links style */
 a {
-  color: var(--color3);
-  text-decoration: none;
+  color: var(--color3);text-decoration: none;
 }
 
 a:visited {
@@ -545,7 +549,7 @@ justify-content: center;
   display: flex;
   flex-direction:column;
   justify-content: center;
-  align-items: center;    
+  align-items: center;
   background-color: var(--color2);
   color: var(--color5);
   width: 100%;
