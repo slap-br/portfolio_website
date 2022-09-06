@@ -1,16 +1,16 @@
 :root {
-  --color1: "#0C7489";
-  --color2: "#13505B";
-  --color3: "#D7D9CE";
-  --color4: "#668F80";
-  --color5: "#CBC5EA";
-  --color6: "#1d7e8f";
-  --bgcolor: "#119DA4";
+  --color1: #0C7489;
+  --color2: #13505B;
+  --color3: #D7D9CE;
+  --color4: #668F80;
+  --color5: #CBC5EA;
+  --color6: #1d7e8f;
+  --bgcolor: #119DA4;
 
   /* animation */
-  --suncolor1: "#f8cd4b";
-  --suncolor2: "#c46607";
-  --suncolor3: "#f76414";
+  --suncolor1: #f8cd4b;
+  --suncolor2: #c46607;
+  --suncolor3: #f76414;
 }
 
 /* testing CSS Linter */
