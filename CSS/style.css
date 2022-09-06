@@ -145,7 +145,7 @@ button,
   display: inline-block;
   font-family: inherit;
   background-color: var(--color2);
-  color: var(--color4);
+  color: var(--color5);
   text-decoration: none;
   padding: 10px;
   border-radius: 2px;
@@ -164,6 +164,11 @@ button:focus,
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
   color: var(--color3);
+}
+
+
+.button:visited {
+  color: var(--color4);
 }
 
 @keyframes color-change {
