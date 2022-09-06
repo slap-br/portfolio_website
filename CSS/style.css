@@ -230,8 +230,6 @@ button:focus,
   grid-row: 1 / 4;
 }
 
-/* END GRID PROJECT */
-
 /* start grid fallback */
 .grid__item {
   display: inline-block;
