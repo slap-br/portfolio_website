@@ -16,6 +16,8 @@
 /* testing CSS Linter */
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /* Sets for Body */
@@ -335,4 +337,6 @@ button:focus,
   background-color: var(--color2);
   color: var(--color5);
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
