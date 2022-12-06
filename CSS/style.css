@@ -90,10 +90,13 @@ a:active {
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 12px;
+  padding: 20px;
   background-color: var(--color5);
 }
-
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
 .page-header__item {
   flex: 0 1 200px;
 }
@@ -260,23 +263,32 @@ button:focus,
 }
 
 /* CONTACT STYLE TEST */
+.contact-title{
+  text-align: center;
+}
 #contactpage {
+  width: 800px;
+  margin: auto;
+  padding: 50px;
+}
+.contactpage{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
-.contact-page { /* FILHO */
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  padding: 20px;
-  grid-gap: 10px;
+.box1 {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
 }
 
-.form { /* FILHO */
-  align-items: center;
-  justify-content: center;
+.box2 {
+  margin: 10px;
+  
+}
+
+.box3 {
+  margin: 10px;
+  
 }
 
 /* End Contact styles */
